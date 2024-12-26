@@ -1,0 +1,232 @@
+
+body{
+    height: 100vh;
+}
+.instagram{
+    padding: 20px;
+    font-family: "Vibur", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+nav{
+    height: 54px;
+}
+nav ul{
+    margin:5px 2px;
+}
+
+.pp-img{
+    
+    border: 3px solid palevioletred;
+   
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+}
+.pp-img-keşfet{
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.alert{
+    align-items: center;
+}
+.div-border{
+    background-color: antiquewhite;
+    
+}
+.profile{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    text-align: start;
+    border-bottom: 1.5px solid lightgray;
+}
+.right-div{
+    display: grid;
+    grid-template-rows: 120px 30px 350px 100px ;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    margin: 17px;
+    
+}
+
+.explore{
+    padding: 3px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    border-bottom: 1.5px solid lightgray;
+   
+}
+.explore img {
+    width: 60px;
+    height: 60px;
+    border: 3px solid palevioletred;
+    border-radius: 50%;
+
+}
+.follow{
+    color: blue;
+    height: 400;
+}
+.name{
+    display: flex;
+   justify-content: start;
+    padding: 2px;
+   
+}
+.önerilen 
+{
+    padding: 5px;
+    color : darkgray;
+    font-size: 0.6rem;
+}
+.tüm{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.alt{
+    color: darkgray;
+    margin: 35px;
+    font-size: 0.6rem;
+}
+/* Hikaye kısımı  */
+.story{
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    height: 120px;
+    border: 1.5px solid lightgray;
+    margin: 10px;
+
+}
+.story img{
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    margin: 5px;
+}
+/* Gönerdi */
+.Post-Card{
+    display: grid;
+    grid-template-rows: (6,1fr);
+    grid-template-columns: auto;
+    gap: 10px;
+    border: 1px solid lightgray;
+}
+.Card1{
+    grid-row: 1 span;
+    
+
+}
+.Card2{
+    grid-row: 5 span;
+    border-bottom: 1.5px solid lightgray;
+}
+.Card3{
+    grid-row: 1span;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1.5px solid lightgray;
+}
+.Card4{
+    grid-row: 4 span;
+    display: grid ;
+    grid-template-rows: 50px 300px ;
+}
+.Card5{
+    grid-row: 1 span;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+
+}
+.profile-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1.5px solid lightgray;
+
+}
+.profile-p{
+   display: grid;
+   grid-template-columns: 100px 200px;
+   text-align: center;
+   align-items: center;
+}
+.profile-p h6 {
+    text-align: start;
+}
+.ellipsis {
+    padding: 5px;
+    text-align: right;
+   
+}
+.Card2 img {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+}
+.card3-1{
+    text-align: start;
+
+    margin: 3px;
+    font-weight: 700;
+}
+.card3-1 i {
+    margin: 3px;
+}
+.card3-2{
+    text-align: right;
+    margin-right: 10px;
+}
+.Card4-1{
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.Card4-1 span {
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.Card4-2{
+    margin: 5px;
+    text-align: start;
+    
+}
+.Card4-2 span{
+    font-weight: 600;
+}
+.Card4-2-1{
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+input{
+
+    text-align:left;
+    border: none;
+    border: 0.1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+
+}
+.share{
+    border: none;
+    padding: 5px 10px;
+}
+
+
+
+
